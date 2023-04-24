@@ -151,9 +151,18 @@
       text-align: left;
     }
 
-    
+    .footer-form-block{
+      max-width: 453px;
+    }
+
+    .footer-form{
+      flex-direction: row;
+      align-items: flex-end;
+      gap:24px;
+    }
     .footer-lable {
       text-align: left;
+      max-width: 264px;
     }
     .footer-input{
       width: 264px;
@@ -161,6 +170,32 @@
   
   /* ____///FOOTER///_____ */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 1158px) {
   .container {
@@ -216,6 +251,7 @@
   /* ___OUR-TEAM____ */
 
   .team-list {
+    justify-content: flex-start;
     width: 1158px;
     display: flex;
     flex-direction: row;
@@ -267,7 +303,8 @@ section.what-are-we-doing {
   /* ___Customers____ */
 
   .customers-list {
-    width: 1159px;
+    width: 1158px;
+    justify-content: flex-start;
   }
 
   /* ___///Customers////____ */
@@ -277,12 +314,12 @@ section.what-are-we-doing {
 
 
   .footer{
-    padding: 100px 0;
+    box-sizing: border-box;
+    padding: 100px 0px;
 }
   .footer-container{
     max-width: 1158px;
-    padding: 0;
-    margin: 0 auto;
+    padding: 0 16px;
   }
 
   .footer-text-container{
