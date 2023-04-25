@@ -246,7 +246,7 @@ img{
 .hero {
     background-color: var(--background-color);
     padding: 112px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) ,url(../images/hero-bg.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) ,url(../images/Mobile-hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
     margin: 0 auto;
@@ -390,6 +390,7 @@ section.what-are-we-doing {
 
 .position-work{
     margin-bottom: 8px;
+    font-weight: 400;
 }
 
 .team-soc-list {
